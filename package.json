@@ -9,7 +9,7 @@
             "url": "https://github.com/JonathanWilbur"
         }
     ],
-    "description": "",
+    "description": "Certificate Request Message Format (CRMF) in TypeScript",
     "devDependencies": {
         "@babel/core": "^7.10.4",
         "@babel/preset-env": "^7.10.4",
@@ -39,10 +39,16 @@
     "files": [
         "dist/node/**/*"
     ],
-    "keywords": [],
+    "keywords": [
+        "CRMF",
+        "Certificate",
+        "Request",
+        "Message",
+        "Format"
+    ],
     "license": "MIT",
     "main": "./dist/node/index.js",
-    "name": "",
+    "name": "crmf-ts",
     "scripts": {
         "benchmark": "node ./test/benchmark.js",
         "breaking-update": "npx ncu -u && npm install",
